@@ -14,6 +14,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import React, { useRef } from 'react'
+import Link from 'next/link'
 
   
 
@@ -38,13 +39,25 @@ export function Header() {
           <DrawerHeader>Menu</DrawerHeader>
 
           <DrawerBody fontWeight='bold'>
-            <Text mt='10' borderBottom='1px'>HOME</Text>
-            <Text mt='10' borderBottom='1px'>COMPANY</Text>
-            <Text mt='10' borderBottom='1px'>PRIVACYPOLICY</Text>
-          </DrawerBody>
 
-          <DrawerFooter>
-          </DrawerFooter>
+            <Link href="/">
+              <a>
+                <Text mt='10' borderBottom='1px'>HOME</Text>
+              </a>
+            </Link>
+
+            <Link href="/company">
+              <a>
+                <Text mt='10' borderBottom='1px'>COMPANY</Text>
+              </a>
+            </Link>
+
+            <Link href="/privacy">
+              <a>
+                <Text mt='10' borderBottom='1px'>PRIVACYPOLICY</Text>
+              </a>
+            </Link>
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
     </Box>
