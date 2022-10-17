@@ -1,0 +1,12 @@
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 979px){
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+}

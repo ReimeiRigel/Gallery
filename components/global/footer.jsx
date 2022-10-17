@@ -69,7 +69,7 @@ export function Footer() {
             fontSize='0.85rem'
           >
             OPEN : 11:00 ~ 18:00 ＜土日、祝 休廊＞ <br />
-            展示会により営業時間等変更する場合がございます
+            展示最終日は17:00まで
           </Text>
         </Box>
 

@@ -23,7 +23,9 @@ export function Header() {
   const btnRef = React.useRef()
 
   return (
-    <Box>
+    <Box
+      w='100%'
+    >
       <Button ref={btnRef} colorScheme='blackAlpha' variant='outline' m='3' position='fixed' onClick={onOpen}>
         <HamburgerIcon />
       </Button>

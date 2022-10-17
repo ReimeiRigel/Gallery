@@ -14,7 +14,7 @@ export function Sphero () {
           alt='Dan Abramov' 
         />
         <Box
-          
+          my='10'
         >
           <Heading
             as='h1' 
@@ -30,7 +30,7 @@ export function Sphero () {
             as='h2' 
             size='lg'
             mt='2'
-            mb='50px'
+            mb='100px'
             ml='3'
           >
             OCT.22-29,2022
