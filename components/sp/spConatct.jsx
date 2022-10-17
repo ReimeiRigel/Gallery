@@ -20,7 +20,7 @@ export function Spcontact() {
         textAlign='center'
       >
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209861.96379159836!2d135.18960405050538!3d34.728045467947986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed2241a467%3A0x588c4d8bc438e0dd!2z44Ku44Oj44Op44Oq44O844KJ44KA44O8!5e0!3m2!1sja!2sjp!4v1665812421359!5m2!1sja!2sjp"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.207153424612!2d135.49655531523223!3d34.699954680434615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed2241a467%3A0x588c4d8bc438e0dd!2z44Ku44Oj44Op44Oq44O844KJ44KA44O8!5e0!3m2!1sja!2sjp!4v1665984022030!5m2!1sja!2sjp" 
           width="400" 
           height="300" 
           allowfullscreen="" 
