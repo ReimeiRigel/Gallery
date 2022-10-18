@@ -11,7 +11,7 @@ export function Sphero () {
           boxSize='300px'
           objectFit='cover'
           src='images/mainImg.png' 
-          alt='Dan Abramov' 
+          alt='Miyabi Katayama' 
         />
         <Box
           my='10'

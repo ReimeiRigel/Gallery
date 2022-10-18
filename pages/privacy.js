@@ -20,7 +20,7 @@ export default function Privacy () {
 
       </Box>
 
-      <Box>
+      <Box className={styles.sp}>
 
         <Header />
 

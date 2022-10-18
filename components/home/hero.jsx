@@ -28,7 +28,7 @@ export function Hero() {
         </Heading>
       </Box>
       <Box boxSize='md'>
-        <Image src='images/mainImg.png' alt='Dan Abramov' />
+        <Image src='images/mainImg.png' alt='Miyabi Katayama' />
       </Box>
     </Container>
   )

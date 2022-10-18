@@ -18,7 +18,7 @@ export function Footer() {
          as='h4'
          size='lg'
         >
-          Gallery La・Mu-
+          Gallery La-Mu
         </Heading>
         <Box>
           <Heading
@@ -68,8 +68,8 @@ export function Footer() {
             mt='2'
             fontSize='0.85rem'
           >
-            OPEN : 11:00 ~ 18:00 ＜土日、祝 休廊＞ <br />
-            展示最終日は17:00まで
+            通常営業時間 : 11:00 ~ 18:00 ＜土日、祝 休廊＞ <br />
+            展示会期中 : 11:00 ~ 19:00 ＜無休、最終日17時まで＞
           </Text>
         </Box>
 
