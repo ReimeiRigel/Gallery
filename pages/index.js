@@ -11,6 +11,7 @@ import { Spabout } from '../components/sp/spAbout'
 import { Spgallery } from '../components/sp/spGallery'
 import { Spfooter } from '../components/global/spFooter'
 import { Spcontact } from '../components/sp/spConatct'
+import { Slider } from '../components/home/slider'
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
         <Hero className={styles.contents}/>
 
         <About className={styles.contents}/>
-
+        
         <Gallery  className={styles.contents}/>
 
         <Footer />

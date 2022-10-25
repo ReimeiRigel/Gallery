@@ -1,4 +1,5 @@
-import { Box, Heading, Image, VStack } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, Image, VStack } from "@chakra-ui/react";
+import Link from "next/link";
 
 export function Sphero () {
   return (
@@ -30,11 +31,21 @@ export function Sphero () {
             as='h2' 
             size='lg'
             mt='2'
-            mb='100px'
             ml='3'
+            mb='5'
           >
             OCT.22-29,2022
           </Heading>
+        </Box>
+        <Box
+          display='flex'
+          overflowX='auto'
+          whiteSpace='nowrap'       
+        >
+          <Image src='/images/Img_1.jpeg' w='200' h='150' m='5' />
+          <Image src='/images/Img_2.jpeg' w='200' h='150' m='5' />
+          <Image src='/images/Img_3.jpeg' w='200' h='150' m='5' />
+          <Image src='/images/Img_4.jpeg' w='200' h='150' m='5'/>
         </Box>
       </VStack>
     </Box>
