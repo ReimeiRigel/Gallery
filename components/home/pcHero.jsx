@@ -27,6 +27,8 @@ export function Pchero () {
         </Text>
       </Box>
 
+      <Divider />
+
       <Box
         my='10'
       >
