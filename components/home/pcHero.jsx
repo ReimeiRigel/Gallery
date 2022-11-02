@@ -27,18 +27,21 @@ export function Pchero () {
         </Text>
       </Box>
 
-
-      <Carousel autoPlay="true">
-        <Box>
-          <Image src='/images/hero_2.png'/>
-        </Box>
-        <Box>
-          <Image src='/images/hero_1.png' />
-        </Box>
-        <Box>
-          <Image src='/images/hero_3.png' />
-        </Box>
-      </Carousel>
+      <Box
+        my='10'
+      >
+        <Carousel autoPlay="true">
+          <Box>
+            <Image src='/images/hero_2.png'/>
+          </Box>
+          <Box>
+            <Image src='/images/hero_1.png' />
+          </Box>
+          <Box>
+            <Image src='/images/hero_3.png' />
+          </Box>
+        </Carousel>
+      </Box>
 
     </Container>
   )
