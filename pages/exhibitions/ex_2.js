@@ -12,7 +12,7 @@ export default function Exhibition2 () {
       alt:'Yamada Takahiro.img',
     },
     {
-      img:'/images/TakahiroYamada/2022yt_2.jpg',
+      img:'/images/TakahiroYamada/2022yt_2.JPG',
       alt:'Yamada Takahiro.img',
     },
     {
@@ -20,7 +20,7 @@ export default function Exhibition2 () {
       alt:'Yamada Takahiro.img',
     },
     {
-      img:'/images/TakahiroYamada/2022yt_4.jpg',
+      img:'/images/TakahiroYamada/2022yt_4.JPG',
       alt:'Yamada Takahiro.img',
     }
   ]
