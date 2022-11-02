@@ -8,22 +8,6 @@ import {
 export function Pccompany () {
   return(
     <Box>
-      <Box
-        h='190px'
-        bgGradient="linear(to-l,  #f15f79 ,  #a044ff )"
-        display='flex'
-        alignItems='center'
-        color='azure'
-      >
-        <Heading
-          as='h1'
-          fontSize={['3rem', '4rem', '5rem', '5rem', '5rem']}
-          opacity='45%'
-          ml='3'
-        >
-          Gallery La-Mu
-        </Heading>
-      </Box>
       <Container
         maxW='container.lg'
         display='flex'

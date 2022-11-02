@@ -6,7 +6,7 @@ export function Spfooter() {
       <Divider />
       <Box
         h='50px'
-        bg='#6a9231'
+        bg='#00aacc'
         color='white'
         fontWeight='bold'
         display='flex'

@@ -1,77 +1,43 @@
-import { Box, Container, Grid, GridItem, Heading, HStack, Image } from "@chakra-ui/react";
-import Link from "next/link";
+import { Box, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.css";
 
-export function Hero() {
+export function Hero () {
   return(
-    <Box
-      color='#6a9231'
-    >
-      <Container
-        maxW='container.lg'
-        height='100vh'
-        display='flex'
-        alignItems='center'
-      > 
-        <Box>
-          <HStack
-            mt='80px'
+    <Box>
+      <VStack>
+        
+        <Box
+          my='10'
+          textAlign='center'
+          color='#00aacc'
+        >
+          <Heading>
+            Gallery La-Mu
+          </Heading>
+          <Text
+            fontWeight='bold'
+            fontSize='.75rem'
           >
-            <Box>
-              <Heading
-                as='h1' 
-                size='2xl'
-                lineHeight='120%'
-              >
-                Miyabi Katayama Exhibition
-              </Heading>
-              <Heading
-                as='h2' 
-                size='lg'
-                mt='10'
-              >
-                OCT.22-29,2022
-              </Heading>
-            </Box>
-            <Box boxSize='sm'>
-              <Image src='images/mainImg.png' alt='Miyabi Katayama' />
-            </Box>
-          </HStack>
-          <Grid
-            mt='100px'
-            templateColumns='repeat(4, 1fr)' 
-            gap={6}
-          >
-            <GridItem w='100%' bg='blue.500'>
-              <Link href="/images/Img_1.jpeg">
-                <a target="_blank">
-                  <Image src='/images/Img_1.jpeg' width="300" alt="" border="0" />
-                </a>
-              </Link>
-            </GridItem>
-            <GridItem w='100%' bg='blue.500'>
-              <Link href="/images/Img_2.jpeg">
-                <a target="_blank">
-                  <Image src='/images/Img_2.jpeg' width="300" alt="" border="0" />
-                </a>
-              </Link>
-            </GridItem>
-            <GridItem w='100%' bg='blue.500'>
-              <Link href="/images/Img_3.jpeg">
-                <a target="_blank">
-                  <Image src='/images/Img_3.jpeg' width="300" alt="" border="0" />
-                </a>
-              </Link>
-            </GridItem>
-            <GridItem w='100%' bg='blue.500'>
-              <Link href="/images/Img_4.jpeg">
-                <a target="_blank">
-                  <Image src='/images/Img_4.jpeg' width="300" alt="" border="0" />
-                </a>
-              </Link>
-            </GridItem>
-          </Grid>
+            ギャラリー　ら・むー
+          </Text>
         </Box>
-      </Container>
+        
+        {/*画像サイズ　３５２×２００*/}
+        <Carousel autoPlay="true">
+          <Box>
+            <Image src='/images/hero_2.png'/>
+          </Box>
+          <Box>
+            <Image src='/images/hero_1.png' />
+          </Box>
+          <Box>
+            <Image src='/images/hero_3.png' />
+          </Box>
+        </Carousel>
+
+      </VStack>
+      
     </Box>
   )
 }

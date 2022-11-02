@@ -1,10 +1,10 @@
 import styles from '../styles/Privacy.module.css'
 import { Box } from "@chakra-ui/react";
-import { Footer } from "../components/global/footer";
-import { Header } from "../components/global/header";
+import { Menubar } from '../components/global/menuBar'
 import { Pcprivacy } from "../components/privacy/pcPrivacy";
 import { Spfooter } from '../components/global/spFooter';
 import { Spprivacy } from '../components/privacy/spPrivacy';
+import { Spheader } from '../components/global/spHeader';
 
 export default function Privacy () {
   return(
@@ -12,17 +12,21 @@ export default function Privacy () {
 
       <Box className={styles.pc}>
 
-        <Header />
+        <Menubar />
+
+        <Spheader />
 
         <Pcprivacy />
 
-        <Footer />
+        <Spfooter />
 
       </Box>
 
       <Box className={styles.sp}>
 
-        <Header />
+        <Menubar />
+
+        <Spheader />
 
         <Spprivacy />
 

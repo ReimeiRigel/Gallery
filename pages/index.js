@@ -1,17 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Box } from '@chakra-ui/react'
-import { Header } from '../components/global/header'
-import { Hero } from '../components/home/hero'
-import { About } from '../components/home/about'
-import { Gallery } from '../components/home/gallery'
-import { Footer } from '../components/global/footer'
-import { Sphero } from '../components/sp/spHero'
-import { Spabout } from '../components/sp/spAbout'
-import { Spgallery } from '../components/sp/spGallery'
+import { Menubar } from '../components/global/menuBar'
 import { Spfooter } from '../components/global/spFooter'
-import { Spcontact } from '../components/sp/spConatct'
-import { Slider } from '../components/home/slider'
+import { Hero } from '../components/home/hero'
+import { Exhibition } from '../components/home/exhibitions'
+import { Contact } from '../components/home/contact'
+import { Pchero } from '../components/home/pcHero'
 
 export default function Home() {
   return (
@@ -25,29 +20,27 @@ export default function Home() {
       
       <Box className={styles.pc}>
 
-        <Header />
+        <Menubar />
 
-        <Hero className={styles.contents}/>
+        <Pchero />
 
-        <About className={styles.contents}/>
-        
-        <Gallery  className={styles.contents}/>
+        <Exhibition />
 
-        <Footer />
+        <Contact />
+
+        <Spfooter />
 
       </Box>
 
       <Box className={styles.sp}>
 
-        <Header />
+        <Menubar />
 
-        <Sphero />
+        <Hero />
 
-        <Spabout />
+        <Exhibition />
 
-        <Spgallery />
-
-        <Spcontact />
+        <Contact />
 
         <Spfooter />
       
