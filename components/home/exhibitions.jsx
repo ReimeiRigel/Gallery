@@ -63,6 +63,7 @@ export function Exhibition () {
             <Link href={ val.link }>
               <Box
                 bg='white'
+                boxShadow='md'
                 w={[ '90vw', '350px', '350px']}
                 h='185px'
                 borderRadius='10'

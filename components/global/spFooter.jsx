@@ -3,7 +3,6 @@ import { Box, Container, Heading, Text, HStack, Center, Divider } from "@chakra-
 export function Spfooter() {
   return (
     <Box>
-      <Divider />
       <Box
         h='50px'
         bg='#00aacc'
@@ -16,6 +15,6 @@ export function Spfooter() {
           Copyright (C) 2022 muses la mu Co.,Ltd.
         </Center>
       </Box>
-    </Box>
+    </Box> 
   )
 }
